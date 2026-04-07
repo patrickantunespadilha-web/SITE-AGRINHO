@@ -8,3 +8,68 @@
     <!--Permte usar acentos e caracteres especiais -->
     <meta name="viewport" content="width=device-widht, initial-scale=1.0"> 
     <!--faz o site se adaptar a celulares (responsividade) -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte, Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Agro Forte, Futuro Sustentável</h1>
+        <p>Equilíbrio entre Produção e Meio Ambiente</p>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+                <li><a href="#inovacao">Inovação</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre o Projeto</h2>
+            <p>O projeto "Agro Forte, Futuro Sustentável" visa promover práticas agrícolas que garantem a produção de alimentos sem prejudicar o meio ambiente. Buscamos um futuro onde o desenvolvimento do setor agropecuário respeite os limites da natureza.</p>
+            <img src="imagem_agro.jpg" alt="Práticas Sustentáveis no Agro" class="imagem-principal">
+        </section>
+
+        <section id="sustentabilidade">
+            <h2>Sustentabilidade no Agro</h2>
+            <p>O equilíbrio entre produção e sustentabilidade é essencial para garantir a preservação dos recursos naturais. Práticas como o uso eficiente da água, manejo do solo e agroecologia são fundamentais para o sucesso dessa jornada.</p>
+            <img src="imagem_sustentabilidade.jpg" alt="Práticas Sustentáveis" class="imagem-principal">
+        </section>
+
+        <section id="inovacao">
+            <h2>Inovação Tecnológica</h2>
+            <p>As tecnologias no campo estão revolucionando a maneira como produzimos alimentos, com soluções que permitem aumentar a produtividade de forma sustentável, como o uso de drones, sensores e tecnologias de precisão.</p>
+            <img src="imagem_inovacao.jpg" alt="Tecnologia no Agro" class="imagem-principal">
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form id="form-contato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Agro Forte - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
