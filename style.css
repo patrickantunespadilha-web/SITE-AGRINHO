@@ -1,113 +1,79 @@
+/* Geral */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
 }
 
+/* Cabeçalho */
 header {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #2E8B57;
+    color: #fff;
+    padding: 20px;
     text-align: center;
-    padding: 20px 0;
 }
 
 header h1 {
     margin: 0;
+    font-size: 2em;
 }
 
 header p {
-    font-size: 1.2em;
+    margin: 5px 0;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+/* Menu de navegação */
+nav {
+    background-color: #3CB371;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 nav a {
-    color: white;
+    color: #fff;
+    padding: 15px 20px;
     text-decoration: none;
-    font-size: 1.1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background 0.3s;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    background-color: #2E8B57;
 }
 
-/* Layout e design */
-main {
-    padding: 20px;
-}
-
+/* Seções */
 section {
-    margin-bottom: 40px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
 }
 
 h2 {
-    color: #4CAF50;
+    color: #2E8B57;
 }
 
-.imagem-principal {
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
+h3 {
+    color: #3CB371;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 600px;
-    margin: 0 auto;
+ul {
+    margin-left: 20px;
 }
 
-form input, form textarea {
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-form button {
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #45a049;
-}
-
-/* Responsividade */
-@media (max-width: 768px) {
-    header {
-        padding: 10px 0;
-    }
-
-    header h1 {
-        font-size: 1.5em;
-    }
-
-    header p {
-        font-size: 1em;
-    }
-
-    nav ul {
-        text-align: center;
-        padding: 0;
-    }
-
-    nav ul li {
-        display: block;
-        margin-bottom: 10px;
-    }
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #2E8B57;
+    color: #fff;
+    position: relative;
+    bottom: 0;
 }
